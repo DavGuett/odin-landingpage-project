@@ -18,6 +18,15 @@ img {
   height: auto;
 }
 
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-link {
   list-style: none;
   display: flex;
@@ -51,6 +60,7 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
+  justify-content: space-around;
 }
 
 .hero-main {
@@ -62,6 +72,18 @@ img {
 .hero-secondary {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 32px;
+  color: white;
+  border-radius: 10px;
+  background-color: #3882f6;
+}
+
+.text {
+  flex-basis: 1;
 }
 
 .text,
