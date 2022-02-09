@@ -83,7 +83,7 @@ img {
 }
 
 .text {
-  flex-basis: 1;
+  max-width: 400px;
 }
 
 .text,
